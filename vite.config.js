@@ -1,0 +1,11 @@
+/**
+ * @type {import('vite').UserConfig}
+ */
+
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  css: {
+    postcss: './postcss.config.js',
+  },
+});
